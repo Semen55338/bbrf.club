@@ -1,0 +1,24 @@
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  line-height: 70px; /* Vertically center the text there */
+}
+
+
+
+footer.footer .social a {
+    font-size: 35px;
+    padding-left: 15px;
+}
+footer.footer .contact a {
+    font-size: 14px;
+}
+
+
+// Разделяшка
+footer.footer .contact a+a:before {
+content: '|';
+  padding: 5px;
+}
